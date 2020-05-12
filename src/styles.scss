@@ -2,3 +2,12 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+img{
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+section{
+  margin-bottom: 30px;
+}

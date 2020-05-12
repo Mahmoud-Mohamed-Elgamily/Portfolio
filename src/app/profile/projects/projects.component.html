@@ -1,0 +1,17 @@
+<section id="projects text-center">
+  <div class="row">
+    <div class="col-sm-12 col-md-4" *ngFor="let project of projects"  routerLink="/project/{{project.id}}">
+      <figure class="figure">
+        <img src="{{project.image}}" class="figure-img img-fluid" alt="{{project.name}} image">
+        <figcaption class="figure-caption">
+          <p>
+            {{project.description}}
+          </p>
+          <a href="{{project.link}}"> Visite Website </a>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <a href="https://github.com/Mahmoud-Mohamed-Elgamily"> <img src="assets/images/GHB.png" alt="" srcset=""> More on Github</a>
+</section>

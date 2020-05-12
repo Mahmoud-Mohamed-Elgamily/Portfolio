@@ -1,0 +1,75 @@
+@import "src/variables";
+
+figure {
+  position: relative;
+  width: inherit;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+
+    figcaption {
+      opacity: 1;
+    }
+  }
+
+  img {
+    width: inherit;
+    margin: 0;
+    height: inherit;
+    transition: all .5s;
+  }
+
+  figcaption {
+
+    display: flex;
+    color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    opacity: 0;
+    padding: 0 50px;
+    transition: opacity 0.5s;
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    a {
+      color: white;
+      border-color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+  }
+}
+
+a {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 5px 10px;
+  border: 1px solid $side-color;
+  color: $side-color;
+  transition: all .5s;
+
+  &:hover {
+    color: black;
+    border: 2px solid black;
+    padding: 4px 9px;
+    text-decoration: none;
+  }
+}

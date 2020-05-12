@@ -5,9 +5,9 @@
         <img src="{{project.image}}" class="figure-img img-fluid" alt="{{project.name}} image">
         <figcaption class="figure-caption">
           <p>
-            {{project.description}}
+            {{project.description | slice:0:30}}....
           </p>
-          <a href="{{project.link}}"> Visite Website </a>
+          <a href="{{project.link}}"> See Details </a>
         </figcaption>
       </figure>
     </div>

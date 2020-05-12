@@ -9,16 +9,16 @@ export class ProjectsComponent implements OnInit {
   projects = [
     {
       id:0,
-      name:"Events",
-      description:"Event managing website developed as a part of NODE JS course evaluation at ITI",
-      image:"assets/images/events.png",
+      name:"Crowd Funding",
+      description:"website to help charity people reach others and gather donations !",
+      image:"assets/images/crowdFuncing.png",
       link:"https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect"
     },
     {
       id:1,
-      name:"Crowd Funding",
-      description:"website to help charity people reach others and gather donations !",
-      image:"assets/images/crowdFuncing.png",
+      name:"Events",
+      description:"Event managing website developed as a part of NODE JS course evaluation at ITI",
+      image:"assets/images/events.png",
       link:"https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect"
     },
     {

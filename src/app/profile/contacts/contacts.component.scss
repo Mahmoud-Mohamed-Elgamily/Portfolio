@@ -1,0 +1,17 @@
+section#contacts{
+  width: 60%;
+  margin: 0 auto 30px;
+  form{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      &>div{
+        width: 80%;
+      }
+      a{
+        height: 40px;
+      }
+  }
+
+}

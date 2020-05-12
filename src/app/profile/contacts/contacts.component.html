@@ -1,1 +1,16 @@
-<p>contacts works!</p>
+<section id="contacts">
+  <form id="form" onchange="mail(this)">
+    <div>
+      <div class="form-group">
+        <label for="Email">Subject</label>
+        <input class="form-control" id="Email" name="subject" [(ngModel)]="mail.subject" placeholder="web development">
+      </div>
+
+      <label for="TextArea">Body</label>
+      <textarea class="form-control" id="TextArea" name="body" [(ngModel)]="mail.body" rows="3"></textarea>
+    </div>
+    <a class="btn btn-primary" href="mailto:{{mail.to}}?subject={{mail.subject}}&body={{mail.body}}"
+      ng-click="logMail()">Contact Me !</a>
+
+  </form>
+</section>

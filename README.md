@@ -5,4 +5,4 @@
 - $ `git clone https://github.com/Mahmoud-Mohamed-Elgamily/portofolio.git`
 - $ `cd portofolio`
 - $ `npm install`
-- $ `ng serve` to run normal server 
+- $ `ng serve` to run development server 

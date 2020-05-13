@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from 'src/app/project';
+import { PROJECTS } from 'src/app/projects-list';
 
 @Component({
   selector: 'app-projects',
@@ -6,29 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  projects = [
-    {
-      id:0,
-      name:"Crowd Funding",
-      description:"website to help charity people reach others and gather donations !",
-      image:"assets/images/crowdfunding.jpg",
-      link:"https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect"
-    },
-    {
-      id:1,
-      name:"Events",
-      description:"Event managing website developed as a part of NODE JS course evaluation at ITI",
-      image:"assets/images/events.jpg",
-      link:"https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect"
-    },
-    {
-      id:2,
-      name:"Yala notlob",
-      description:"application thats give the user ability to add friends and groups then make an order from whatever restaurants also with valid authentication and great views for user",
-      image:"assets/images/nakol.jpeg",
-      link:"https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect"
-    },
-  ]
+  projects = PROJECTS;
   constructor() { }
 
   ngOnInit(): void {

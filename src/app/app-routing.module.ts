@@ -7,9 +7,7 @@ const routes: Routes = [
   { path: 'project/:id', component: ProjectDetailsComponent },
 ];
 const routerOptions: ExtraOptions = {
-  useHash: false,
   anchorScrolling: 'enabled',
-  // ...any other options you'd like to use
 };
 @NgModule({
   imports: [RouterModule.forRoot(routes, routerOptions)],

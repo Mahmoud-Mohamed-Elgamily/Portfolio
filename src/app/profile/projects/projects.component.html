@@ -5,7 +5,7 @@
         <img src="{{ project.images[0] }}" class="figure-img img-fluid" alt="{{project.name}} image">
         <figcaption class="figure-caption">
           <p>
-            {{project.description | slice:0:30}}....
+            {{project.name}}
           </p>
           <a routerLink="/project/{{project.id}}"> See Details </a>
         </figcaption>

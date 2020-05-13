@@ -9,7 +9,7 @@ import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './profile/about/about.component';
 import { ProjectsComponent } from './profile/projects/projects.component';
 import { ContactsComponent } from './profile/contacts/contacts.component';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [

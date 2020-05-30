@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
       'assets/images/funding/crowdfunding1.jpg',
       'assets/images/funding/crowdfunding2.jpg',
     ],
-    link: 'https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect'
+    link: 'https://github.com/Mahmoud-Mohamed-Elgamily/CrowdFunding'
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
       'assets/images/events/events1.jpg',
       'assets/images/events/events2.jpg',
     ],
-    link: 'https://github.com/Mahmoud-Mohamed-Elgamily/iti_ruby_onrails_progect'
+    link: 'https://github.com/Mahmoud-Mohamed-Elgamily/Events'
   },
   {
     id: 2,
